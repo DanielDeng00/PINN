@@ -1,0 +1,58 @@
+{
+  "failures": [
+    {
+      "case_id": "10008",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10011",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10014",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10017",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10028",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10030",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10034",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10037",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    },
+    {
+      "case_id": "10039",
+      "stage": "validation",
+      "error": "Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 812, in evaluate_streaming\n    save_prediction(d, g, truth, pred, row)\n  File \"/mnt/sda/Ruiyi/Data-driven/suk2026_pointnet2_pure_data_ablation.py\", line 846, in save_prediction\n    sub.save(outdir/\"prediction_points.vtp\")\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/_deprecate_positional_args.py\", line 243, in inner_f\n    return f(*args, **kwargs)\n  File \"/mnt/sda/Ruiyi/anaconda3/envs/transformer1/lib/python3.10/site-packages/pyvista/core/dataobject.py\", line 228, in save\n    raise ValueError(msg)\nValueError: Invalid file extension '.vtp' for data type <class 'pyvista.core.pointset.UnstructuredGrid'>.\nMust be one of: ['.vtu', '.vtk', '.vtkhdf', '.pkl', '.pickle']\n"
+    }
+  ]
+}
