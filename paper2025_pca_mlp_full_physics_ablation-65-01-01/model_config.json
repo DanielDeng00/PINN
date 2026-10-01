@@ -1,0 +1,62 @@
+{
+  "paper": "Lin & Kenjeres, Computers in Biology and Medicine 191 (2025) 110137",
+  "shape_input_dim": 19,
+  "geometry_descriptor_dim": 450,
+  "geometry_control_points": 150,
+  "field_node_count": 34473,
+  "pressure": {
+    "hidden": 550,
+    "hidden_layers": 5,
+    "pca_modes": 23,
+    "lr": 1.2e-05,
+    "loss": "MAE"
+  },
+  "speed": {
+    "hidden": 400,
+    "hidden_layers": 4,
+    "pca_modes": 50,
+    "lr": 0.0003,
+    "loss": "MAE"
+  },
+  "direction": {
+    "hidden": 200,
+    "hidden_layers": 4,
+    "pca_modes": 50,
+    "lr": 0.0029,
+    "loss": "negative cosine similarity"
+  },
+  "batch_size": 30,
+  "optimizer": "Adam",
+  "activation": "ReLU",
+  "hard_no_slip": true,
+  "pinn_or_ns_loss": true,
+  "physics_terms": [
+    "momentum",
+    "continuity",
+    "mass_flow",
+    "pressure_drop",
+    "wall_noslip",
+    "no_penetration",
+    "local_direction"
+  ],
+  "physics_max_points": 3000,
+  "physics_k": 24,
+  "physics_weights": {
+    "data": 1.0,
+    "momentum": 0.0001,
+    "continuity": 0.0001,
+    "mass_flow": 0.0001,
+    "pressure_drop": 0.0001,
+    "wall_noslip": 0.0001,
+    "no_penetration": 0.0001,
+    "local_direction": 0.0001
+  },
+  "pressure_mode": "raw",
+  "output_for_comparison": [
+    "u",
+    "v",
+    "w",
+    "p"
+  ],
+  "adaptation_note": "Paper Deformetrica/LDDMM SSM correspondence replaced by deterministic 150-point surface descriptor + bbox canonical common field, because user requested own variable-mesh data and no additional downloads."
+}
