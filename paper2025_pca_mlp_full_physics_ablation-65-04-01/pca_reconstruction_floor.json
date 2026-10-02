@@ -1,0 +1,11 @@
+{
+  "speed_mae": 0.019121543200822117,
+  "speed_nmae_percent_global": 1.2605912770260468,
+  "pressure_mae": 0.0140345566797982,
+  "pressure_nmae_percent_global": 0.9913934773938845,
+  "direction_component_mae": 0.12048270081749067,
+  "shape_effective_rank": 19,
+  "speed_effective_rank": 50,
+  "pressure_effective_rank": 23,
+  "direction_effective_rank": 50
+}
