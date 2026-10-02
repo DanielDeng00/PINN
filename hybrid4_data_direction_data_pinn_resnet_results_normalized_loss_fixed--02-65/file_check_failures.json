@@ -1,0 +1,40 @@
+{
+    "failures": [
+        {
+            "case_id": "460",
+            "missing": [
+                "/mnt/sda/Ruiyi/data/460_flow_direction/arrays/coarse_flow_direction.npy"
+            ]
+        },
+        {
+            "case_id": "462",
+            "missing": [
+                "/mnt/sda/Ruiyi/data/462_flow_direction/arrays/coarse_flow_direction.npy"
+            ]
+        },
+        {
+            "case_id": "468",
+            "missing": [
+                "/mnt/sda/Ruiyi/data/468_flow_direction/arrays/coarse_flow_direction.npy"
+            ]
+        },
+        {
+            "case_id": "472",
+            "missing": [
+                "/mnt/sda/Ruiyi/data/472_flow_direction/arrays/coarse_flow_direction.npy"
+            ]
+        },
+        {
+            "case_id": "475",
+            "missing": [
+                "/mnt/sda/Ruiyi/data/475_flow_direction/arrays/coarse_flow_direction.npy"
+            ]
+        },
+        {
+            "case_id": "727",
+            "missing": [
+                "/mnt/sda/Ruiyi/data/727_flow_direction/arrays/coarse_flow_direction.npy"
+            ]
+        }
+    ]
+}
